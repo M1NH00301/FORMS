@@ -1,18 +1,38 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: left;
 }
 
 #titulo{
     font-family: Arial, Helvetica, sans-serif;
-    color: aquamarine;
-    margin-left: 7%;
+    color:  rgb(107, 0, 128);
+    text-shadow: red 2px 2px 2px;
 }
 
 #subtitulo{
-    font-family: sans-serif;
-    color: turquoise;
-    margin-left: 10%;   
+    font-family: 'Courier New';
+    color: black;
+}
+
+.nome{
+    text-shadow: black 1px 2px 2px;
+}
+
+.sobrenome{
+    text-shadow: black 1px 2px 2px;
+}
+
+.email{
+    text-shadow: black 1px 2px 2px;
+}
+
+.aplicacao{
+    text-shadow: black 1px 2px 2px;
+}
+
+.senioridade{
+    text-shadow: black 1px 2px 2px;
 }
 
 fieldset{
@@ -63,6 +83,54 @@ fieldset.grupo .campo{
     background: #E0E0F8;
 }
 
+.tecnologias{
+    font-size: 1.2em;
+    color: #59429d;
+    text-shadow: black 1px 2px 2px;
+}
+
+.tecnologia1{
+    color: aqua;
+    font-family: 'Courier New';
+    text-shadow: black 1px 2px 2px;
+}
+
+.tecnologia2{
+    color: red;
+    font-family: 'Courier New';
+    text-shadow: black 1px 2px 2px;
+}
+
+.tecnologia3{
+    color: green;
+    font-family: 'Courier New';
+    text-shadow: black 1px 2px 2px;
+}
+
+.tecnologia4{
+    color: yellow;
+    font-family: 'Courier New';
+    text-shadow: black 1px 2px 2px;
+}
+
+.tecnologia5{
+    color: darkblue;
+    font-family: 'Courier New';
+    text-shadow: black 1px 2px 2px;
+}
+
+.tecnologia6{
+    color: brown;
+    font-family: 'Courier New';
+    text-shadow: black 1px 2px 2px;
+}
+
+.tecnologia7{
+    color: rosybrown;
+    font-family: 'Courier New';
+    text-shadow: black 1px 2px 2px;
+}
+
 .botao{
     font-size: 1.2em;
     background-color: #59429d;
@@ -71,12 +139,16 @@ fieldset.grupo .campo{
     color: #ffffff;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     position: absolute;
     top: 90%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+.experiencia{
+    text-shadow: black 1px 2px 2px;
 }
 
 .botao:hover{
